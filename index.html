@@ -3,188 +3,622 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ÍNTIMO | Catálogo Visual</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>ÍNTIMO | Catálogo Exclusivo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/logos/logoblanco.png" type="image/x-image">
+    <link rel="shortcut icon" href="images/logos/logoblanco.png" type="image/x-icon">
 </head>
 <body>
+    <!-- Spotlight Effect -->
+    <div class="spotlight" id="spotlight"></div>
 
-    <header>
-        <img src="images/logos/logoblanco.png" class="logo">
-        <p class="intro">El placer tiene su lugar.</p>
-    </header>
+    <!-- HERO SECTION -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <img src="images/logos/logoblanco.png" alt="ÍNTIMO" class="hero-logo">
+            <p class="hero-tagline">El placer tiene su lugar</p>
+        </div>
+        <div class="scroll-indicator">Explorar</div>
+    </section>
 
-    <nav class="tabs">
-        <button class="tab-btn active" onclick="openTab('juguetes')">Juguetes</button>
-        <button class="tab-btn" onclick="openTab('cosmeticos')">Cosméticos</button>
-        <button class="tab-btn" onclick="openTab('juegos')">Juegos</button>
+    <!-- NAVEGACIÓN -->
+    <nav class="nav-container">
+        <div class="nav-pill">
+            <div class="nav-indicator" id="navIndicator"></div>
+            <button class="nav-btn active" data-tab="juguetes">Juguetes</button>
+            <button class="nav-btn" data-tab="cosmeticos">Cosméticos</button>
+            <button class="nav-btn" data-tab="juegos">Juegos</button>
+            <button class="nav-btn" data-tab="lenceria">Lencería</button>
+        </div>
     </nav>
 
-    <div id="juguetes" class="category-view active">
-        
-        <div class="subcat-section">
-            <div class="subcat-header">
-                <h2>Vibradores</h2>
-                <p>Desde caricias sutiles hasta pulsaciones intensas. Diseños ergonómicos para descubrir nuevos ritmos en tu piel.</p>
-            </div>
-            <div class="gallery-slider">
-                <div class="gallery-item"><img src="images/juguetes/vibradores/1-3-removebg-preview.png" alt="Vibrador"></div>
-                <div class="gallery-item"><img src="images/juguetes/vibradores/185111_2-1-removebg-preview.png" alt="Vibrador"></div>
-                <div class="gallery-item"><img src="images/juguetes/vibradores/987-600x618-removebg-preview.png" alt="Vibrador"></div>
-                <div class="gallery-item"><img src="images/juguetes/vibradores/BalasReginald-600x600-removebg-preview.png" alt="Vibrador"></div>
-                <div class="gallery-item"><img src="images/juguetes/vibradores/Balita_Diamond-600x600-removebg-preview.png" alt="Vibrador"></div>
-                <div class="gallery-item"><img src="images/juguetes/vibradores/FOTO_67-removebg-preview.png" alt="Vibrador"></div>
-                <div class="gallery-item"><img src="images/juguetes/vibradores/freepik__talk__63081-removebg-preview.png" alt="Vibrador"></div>
-                <div class="gallery-item"><img src="images/juguetes/vibradores/H7f650a864c504e8382fba08848b9fd2aq-removebg-preview.png" alt="Vibrador"></div>
-                <div class="gallery-item"><img src="images/juguetes/vibradores/HuevoJoanne-600x600-removebg-preview.png" alt="Vibrador"></div>
-                <div class="gallery-item"><img src="images/juguetes/vibradores/winyi_rick-removebg-preview.png" alt="Vibrador"></div>
-            </div>
-        </div>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="main-content">
 
-        <div class="subcat-section">
-            <div class="subcat-header">
-                <h2>Vaginas y Muñecas</h2>
-                <p>Realismo y texturas que envuelven. Experiencias visuales y táctiles creadas para el deleite.</p>
-            </div>
-            <div class="gallery-slider">
-                <div class="gallery-item"><img src="images/juguetes/vaginas/ano-mastubador-docoo-removebg-preview.png" alt="Vagina"></div>
-            </div>
-        </div>
+        <!-- JUGUETES -->
+        <section id="juguetes" class="category-view active">
+            <div class="category-section">
+                <div class="category-header reveal">
+                    <span class="section-number">01</span>
+                    <h2 class="category-title">Juguetes</h2>
+                    <p class="category-desc">Descubre nuestra colección de juguetes íntimos seleccionados para el máximo placer</p>
+                </div>
 
-        <div class="subcat-section">
-            <div class="subcat-header">
-                <h2>Masturbadores y Consoladores</h2>
-                <p>Formas clásicas y modernas diseñadas para llenar de placer cada momento a solas o en compañía.</p>
-            </div>
-            <div class="gallery-slider">
-                <div class="gallery-item"><img src="images/juguetes/consoladores/2132_G_1590993499231-300x300.png" alt="Consolador"></div>
-                <div class="gallery-item"><img src="images/juguetes/consoladores/99771.png" alt="Consolador"></div>
-                <div class="gallery-item"><img src="images/juguetes/consoladores/BW-007037R_08.png" alt="Consolador"></div>
-                <div class="gallery-item"><img src="images/juguetes/consoladores/BW-008017N_08.png" alt="Consolador"></div>
-                <div class="gallery-item"><img src="images/juguetes/consoladores/dildo-1-e1678226071321-100x100.png" alt="Consolador"></div>
-                <div class="gallery-item"><img src="images/juguetes/consoladores/Dildo-Human-Sense-A.png" alt="Consolador"></div>
-                <div class="gallery-item"><img src="images/juguetes/consoladores/Dildo_Jhon.png" alt="Consolador"></div>
-                <div class="gallery-item"><img src="images/juguetes/consoladores/Estelle_Fucsia.png" alt="Consolador"></div>
-                <div class="gallery-item"><img src="images/juguetes/consoladores/masturadorBanana_9950.png" alt="Consolador"></div>
-                <div class="gallery-item"><img src="images/juguetes/consoladores/masturbador_Pepino_Ref_9952.png" alt="Consolador"></div>
-            </div>
-        </div>
+                <!-- Vibradores -->
+                <div class="subcategory">
+                    <div class="subcategory-header reveal">
+                        <span class="subcategory-number">01</span>
+                        <h3 class="subcategory-title">Vibradores</h3>
+                        <p class="subcategory-desc">Diseños ergonómicos para descubrir nuevos ritmos en tu piel</p>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-card reveal" style="--index: 0">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Vibrador Flesh.png" alt="Vibrador Flesh" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Vibrador Flesh</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 1">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Vibrador Lengua Dirty Pig.png" alt="Vibrador Lengua Dirty Pig" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Vibrador Lengua Dirty Pig</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 2">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Vibrador Luxury.png" alt="Vibrador Luxury" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Vibrador Luxury</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 3">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Vibrador Masajeador.png" alt="Vibrador Masajeador" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Vibrador Masajeador</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 4">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Vibrador Neon.png" alt="Vibrador Neon" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Vibrador Neon</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 5">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Vibrador Vincent.png" alt="Vibrador Vincent" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Vibrador Vincent</h4>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="subcat-section">
-            <div class="subcat-header">
-                <h2>Anillos</h2>
-                <p>El cómplice perfecto para parejas. Potencia, duración y estimulación simultánea.</p>
-            </div>
-            <div class="gallery-slider">
-                <div class="gallery-item"><img src="images/juguetes/anillos/222113710_128956632734721_8158018355435238628_n.png" alt="Anillo"></div>
-                <div class="gallery-item"><img src="images/juguetes/anillos/Anillo_Sta_-Hard_Rosy.png" alt="Anillo"></div>
-                <div class="gallery-item"><img src="images/juguetes/anillos/Dream-Novelty-Anillo-Negro-03-1.png" alt="Anillo"></div>
-                <div class="gallery-item"><img src="images/juguetes/anillos/PhotoRoom_20221012_154336-3-100x100.png" alt="Anillo"></div>
-                <div class="gallery-item"><img src="images/juguetes/anillos/vibratingLove.png" alt="Anillo"></div>
-            </div>
-        </div>
+                <!-- Vibradores Premium -->
+                <div class="subcategory">
+                    <div class="subcategory-header reveal">
+                        <span class="subcategory-number">02</span>
+                        <h3 class="subcategory-title">Vibradores Premium</h3>
+                        <p class="subcategory-desc">Diseños exclusivos con acabados de lujo para una experiencia superior</p>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-card reveal" style="--index: 0">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Bala Vibradora Pink.png" alt="Bala Vibradora Pink" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Bala Vibradora Pink</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 1">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Huevo Estimulador.png" alt="Huevo Estimulador" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Huevo Estimulador</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 2">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Huevo Vibrador Joanne.png" alt="Huevo Vibrador Joanne" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Huevo Vibrador Joanne</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 3">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Vibrador Premium Ava.png" alt="Vibrador Premium Ava" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Vibrador Premium Ava</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 4">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Vibrador Princess Diamond.png" alt="Vibrador Princess Diamond" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Vibrador Princess Diamond</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 5">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Vibrador Regina.png" alt="Vibrador Regina" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Vibrador Regina</h4>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
 
-         <div class="subcat-section">
-            <div class="subcat-header">
-                <h2>Bombas y Bolas</h2>
-                <p>Entrenamiento y sensibilidad. Fortalece tu interior o potencia tu exterior.</p>
-            </div>
-            <div class="gallery-slider">
-                <div class="gallery-item"><img src="images/juguetes/bolas/bolas-bendy-twist2.png" alt="Bolas"></div>
-                <div class="gallery-item"><img src="images/juguetes/bolas/BOLAS-SILICONE.png" alt="Bolas"></div>
-                <div class="gallery-item"><img src="images/juguetes/bolas/MY_COOLEST_BEADS2.png" alt="Bolas"></div>
-                <div class="gallery-item"><img src="images/juguetes/bolas/Winyi.png" alt="Bolas"></div>
-                <div class="gallery-item"><img src="images/juguetes/bolas/WinyiElsa_3.png" alt="Bolas"></div>
-                <div class="gallery-item"><img src="images/juguetes/bolas/WinyiGrace.png" alt="Bolas"></div>
-                <div class="gallery-item"><img src="images/juguetes/bolas/WinyiHeidi.png" alt="Bolas"></div>
-                <div class="gallery-item"><img src="images/juguetes/bolas/WinyiVictoria.png" alt="Bolas"></div>
-                <div class="gallery-item"><img src="images/juguetes/bolas/WY0684产品包装图1-1-300x300.png" alt="Bolas"></div>
-                <div class="gallery-item"><img src="images/juguetes/bolas/WY0685产品包装图1-300x300.png" alt="Bolas"></div>
-            </div>
-        </div>
+                <!-- Masturbadores -->
+                <div class="subcategory">
+                    <div class="subcategory-header reveal">
+                        <span class="subcategory-number">03</span>
+                        <h3 class="subcategory-title">Masturbadores y Huevos</h3>
+                        <p class="subcategory-desc">Formas diseñadas para el máximo placer en solitario</p>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-card reveal" style="--index: 0">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Funda Alta Calidad.png" alt="Funda Alta Calidad" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Funda Alta Calidad</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 1">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Huevo Vagina Funny Egg.png" alt="Huevo Vagina Funny Egg" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Huevo Vagina Funny Egg</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 2">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Masturbador Doble.png" alt="Masturbador Doble" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Masturbador Doble</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 3">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Masturbador RubberWorks.png" alt="Masturbador RubberWorks" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Masturbador RubberWorks</h4>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    </div>
+                <!-- Plugs -->
+                <div class="subcategory">
+                    <div class="subcategory-header reveal">
+                        <span class="subcategory-number">04</span>
+                        <h3 class="subcategory-title">Plugs, Bolas y Dildos</h3>
+                        <p class="subcategory-desc">Entrenamiento y sensibilidad con diseños ergonómicos</p>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-card reveal" style="--index: 0">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Bolas Beads.png" alt="Bolas Beads" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Bolas Beads</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 1">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Bolas My Coolest.png" alt="Bolas My Coolest" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Bolas My Coolest</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 2">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Enema Anal.png" alt="Enema Anal" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Enema Anal</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 3">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Plug Anal Bunny.png" alt="Plug Anal Bunny" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Plug Anal Bunny</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 4">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Dildo Clear Cock.png" alt="Dildo Clear Cock" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Dildo Clear Cock</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 5">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Dildo Vidrio.png" alt="Dildo Vidrio" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Dildo Vidrio</h4>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <div id="cosmeticos" class="category-view">
-        
-        <div class="subcat-section">
-            <div class="subcat-header">
-                <h2>Lubricantes (Agua, Silicona, Híbridos)</h2>
-                <p>La base de todo buen encuentro. Deslizamiento natural, hidratación y confort duradero.</p>
+                <!-- Anillos -->
+                <div class="subcategory">
+                    <div class="subcategory-header reveal">
+                        <span class="subcategory-number">05</span>
+                        <h3 class="subcategory-title">Anillos</h3>
+                        <p class="subcategory-desc">El cómplice perfecto para parejas</p>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-card reveal" style="--index: 0">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Anillo Stay Hard x3.png" alt="Anillo Stay Hard x3" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Anillo Stay Hard x3</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 1">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juguetes/Anillo Vubrador.png" alt="Anillo Vubrador" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Anillo Vubrador</h4>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="gallery-slider">
-                <div class="gallery-item"><img src="images/cosmeticos/lubricantes/Climaxxx250ml-600x600.png" alt="Lubricante"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/lubricantes/EASY_ANAL_par-e1751575235505-1.png" alt="Lubricante"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/lubricantes/FOTO_EROTIC_04.png" alt="Lubricante"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/lubricantes/FOTO_EROTIC_06.png" alt="Lubricante"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/lubricantes/hot-estuff-80ml.png" alt="Lubricante"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/lubricantes/Ice-gel-blueberry-1.png" alt="Lubricante"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/lubricantes/Ice-gel-hierbabuena-1.png" alt="Lubricante"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/lubricantes/Licor-Lush-Caja-Caja-x-1-Oz.png" alt="Lubricante"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/lubricantes/super-glide-600x722.png" alt="Lubricante"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/lubricantes/Tropical_Twist_PleasureLab-600x600.png" alt="Lubricante"></div>
-            </div>
-        </div>
+        </section>
 
-        <div class="subcat-section">
-            <div class="subcat-header">
-                <h2>Comestibles y Masajes</h2>
-                <p>Sabores que despiertan el paladar y aceites que calientan la piel. El juego previo hecho arte.</p>
-            </div>
-            <div class="gallery-slider">
-                <div class="gallery-item"><img src="images/cosmeticos/masajes-comestibles/ActionLubeChocolate30ml-300x300.png" alt="Masaje"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/masajes-comestibles/erotic-balls_1024x1024-300x300.png" alt="Masaje"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/masajes-comestibles/freepik__talk__94388.png" alt="Masaje"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/masajes-comestibles/Ice-gel-blueberry-1-300x300.png" alt="Masaje"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/masajes-comestibles/Ice-gel-hierbabuena-1-300x300.png" alt="Masaje"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/masajes-comestibles/Ice-gel-tutti-frutti-1-300x300.png" alt="Masaje"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/masajes-comestibles/Licor-Lush-Caja-Caja-x-1-Oz-300x300.png" alt="Masaje"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/masajes-comestibles/Play-Girl-Caja-y-300x300.png" alt="Masaje"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/masajes-comestibles/Play-Girl-Caja_2-300x300.png" alt="Masaje"></div>
-            </div>
-        </div>
+        <!-- COSMÉTICOS -->
+        <section id="cosmeticos" class="category-view">
+            <div class="category-section">
+                <div class="category-header reveal">
+                    <span class="section-number">02</span>
+                    <h2 class="category-title">Cosméticos</h2>
+                    <p class="category-desc">Productos de cuidado íntimo para potenciar tu experiencia</p>
+                </div>
 
-        <div class="subcat-section">
-            <div class="subcat-header">
-                <h2>Potenciadores y Retardantes</h2>
-                <p>Controla el tiempo y la intensidad. Soluciones para que la noche dure lo que tú quieras.</p>
-            </div>
-            <div class="gallery-slider">
-                <div class="gallery-item"><img src="images/cosmeticos/retardantes/Englofert-300x300-removebg-preview.png" alt="Spray"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/retardantes/FOTO_EROTIC_02-300x300-removebg-preview.png" alt="Spray"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/retardantes/MINI-THUNDER-300x300-removebg-preview.png" alt="Spray"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/retardantes/PhotoRoom-20221005-222852-300x300-removebg-preview.png" alt="Spray"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/retardantes/pk2-500ml-300x300-removebg-preview.png" alt="Spray"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/retardantes/PK2-x-30g-2-300x300-removebg-preview.png" alt="Spray"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/retardantes/WhatsApp-Image-2023-04-03-at-11.29.08-AM-300x300-removebg-preview.png" alt="Spray"></div>
-                <div class="gallery-item"><img src="images/cosmeticos/retardantes/WhatsApp-Image-2024-04-10-at-3.05.22-PM-300x300-removebg-preview.png" alt="Spray"></div>
-            </div>
-        </div>
+                <!-- Lubricantes -->
+                <div class="subcategory">
+                    <div class="subcategory-header reveal">
+                        <span class="subcategory-number">01</span>
+                        <h3 class="subcategory-title">Lubricantes</h3>
+                        <p class="subcategory-desc">La base de todo buen encuentro</p>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-card reveal" style="--index: 0">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Lubricantes/Lubricante Algodón de Azúcar.png" alt="Lubricante Algodón de Azúcar" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Lubricante Algodón de Azúcar</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 1">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Lubricantes/Lubricante BonBomBum.png" alt="Lubricante BonBomBum" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Lubricante BonBomBum</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 2">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Lubricantes/Lubricante Caliente Comestible 80ml.png" alt="Lubricante Caliente Comestible 80ml" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Lubricante Caliente Comestible 80ml</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 3">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Lubricantes/Lubricante Chocolate.png" alt="Lubricante Chocolate" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Lubricante Chocolate</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 4">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Lubricantes/Lubricante Electrizante 3 en 1 Coffee Caramel.png" alt="Lubricante Electrizante Coffee Caramel" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Lubricante Electrizante Coffee Caramel</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 5">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Lubricantes/Lubricante Electrizante 3 en 1 Maracuyá.png" alt="Lubricante Electrizante Maracuyá" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Lubricante Electrizante Maracuyá</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 6">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Lubricantes/Lubricante Garganta Profunda.png" alt="Lubricante Garganta Profunda" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Lubricante Garganta Profunda</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 7">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Lubricantes/Lubricante Neutro Íntimo 20ml.png" alt="Lubricante Neutro Íntimo 20ml" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Lubricante Neutro Íntimo 20ml</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 8">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Lubricantes/Lubricante Orgasmen 60ml.png" alt="Lubricante Orgasmen 60ml" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Lubricante Orgasmen 60ml</h4>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    </div>
+                <!-- Comestibles -->
+                <div class="subcategory">
+                    <div class="subcategory-header reveal">
+                        <span class="subcategory-number">02</span>
+                        <h3 class="subcategory-title">Comestibles</h3>
+                        <p class="subcategory-desc">Sabores que despiertan el paladar</p>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-card reveal" style="--index: 0">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Comestibles/Dulce Polvo Mágico.png" alt="Dulce Polvo Mágico" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Dulce Polvo Mágico</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 1">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Comestibles/Lubricante para Masajes 40ml.png" alt="Lubricante para Masajes 40ml" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Lubricante para Masajes 40ml</h4>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <div id="juegos" class="category-view">
-        <div class="subcat-section">
-            <div class="subcat-header">
-                <h2>Para romper la rutina</h2>
-                <p>Cartas, dados y retos. La excusa perfecta para conversar, explorar y conectar desde la honestidad.</p>
-            </div>
-            <div class="gallery-slider">
-                <div class="gallery-item"><img src="images/juegos eroticos/juegos/dados-eroticos-x-3-300x300-removebg-preview.png" alt="Cartas"></div>
-                <div class="gallery-item"><img src="images/juegos eroticos/juegos/Fantasia-Erotica-300x300-removebg-preview.png" alt="Cartas"></div>
-                <div class="gallery-item"><img src="images/juegos eroticos/juegos/freepik__talk__52124-300x300-removebg-preview.png" alt="Cartas"></div>
-                <div class="gallery-item"><img src="images/juegos eroticos/juegos/juego-erotico-gira-la-botella-1-300x300-removebg-preview.png" alt="Cartas"></div>
-                <div class="gallery-item"><img src="images/juegos eroticos/juegos/juegos-50-de-sombras3-300x300-removebg-preview.png" alt="Cartas"></div>
-                <div class="gallery-item"><img src="images/juegos eroticos/juegos/SEX-PLAY-300x300-removebg-preview.png" alt="Cartas"></div>
-                <div class="gallery-item"><img src="images/juegos eroticos/juegos/sexPlay-Kamasutra-300x300-removebg-preview.png" alt="Cartas"></div>
-                <div class="gallery-item"><img src="images/juegos eroticos/juegos/WhatsApp-Image-2023-09-21-at-2.44.26-PM-1-300x300-removebg-preview.png" alt="Cartas"></div>
-            </div>
-        </div>
-    </div>
+                <!-- Potenciadores -->
+                <div class="subcategory">
+                    <div class="subcategory-header reveal">
+                        <span class="subcategory-number">03</span>
+                        <h3 class="subcategory-title">Potenciadores y Retardantes</h3>
+                        <p class="subcategory-desc">Controla el tiempo y la intensidad</p>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-card reveal" style="--index: 0">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Potenciadores y Retardantes/Pastilla Emental x10.png" alt="Pastilla Emental x10" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Pastilla Emental x10</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 1">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Potenciadores y Retardantes/ZenSativa Retardante.png" alt="ZenSativa Retardante" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">ZenSativa Retardante</h4>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <a href="https://wa.me/573054449693?text=Hola+INTIMO,+estuve+viendo+su+catálogo+y+quisiera+asesoría." class="wa-float" target="_blank">
-        <span>Asesoría Personalizada</span>
+                <!-- Féromonas -->
+                <div class="subcategory">
+                    <div class="subcategory-header reveal">
+                        <span class="subcategory-number">04</span>
+                        <h3 class="subcategory-title">Féromonas y Cuidado</h3>
+                        <p class="subcategory-desc">Atracción natural y cuidado íntimo</p>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-card reveal" style="--index: 0">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Extracto Féromonas.png" alt="Extracto Féromonas" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Extracto Féromonas</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 1">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Gloss con Féromonas.png" alt="Gloss con Féromonas" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Gloss con Féromonas</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 2">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Limpiador de Juguetes.png" alt="Limpiador de Juguetes" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Limpiador de Juguetes</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 3">
+                            <div class="product-image-wrapper">
+                                <img src="images/Cosméticos/Loción con Féromonas.png" alt="Loción con Féromonas" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Loción con Féromonas</h4>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- JUEGOS -->
+        <section id="juegos" class="category-view">
+            <div class="category-section">
+                <div class="category-header reveal">
+                    <span class="section-number">03</span>
+                    <h2 class="category-title">Juegos</h2>
+                    <p class="category-desc">La excusa perfecta para romper la rutina</p>
+                </div>
+
+                <div class="subcategory">
+                    <div class="subcategory-header reveal">
+                        <span class="subcategory-number">01</span>
+                        <h3 class="subcategory-title">Para Romper la Rutina</h3>
+                        <p class="subcategory-desc">Cartas, dados y retos para conectar</p>
+                    </div>
+                    <div class="product-grid">
+                        <div class="product-card reveal" style="--index: 0">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juegos/Dados Penitencia.png" alt="Dados Penitencia" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Dados Penitencia</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 1">
+                            <div class="product-image-wrapper">
+                                <img src="images/Juegos/Juego_Erótico.png" alt="Juego Erótico" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Juego Erótico</h4>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LENCERÍA -->
+        <section id="lenceria" class="category-view">
+            <div class="category-section">
+                <div class="category-header reveal">
+                    <span class="section-number">04</span>
+                    <h2 class="category-title">Lencería</h2>
+                    <p class="category-desc">Viste la fantasía</p>
+                </div>
+
+                <div class="subcategory">
+                    <div class="subcategory-header reveal">
+                        <span class="subcategory-number">01</span>
+                        <h3 class="subcategory-title">Disfraces y Trajes</h3>
+                        <p class="subcategory-desc">Diseños sensuales para despertar el deseo</p>
+                    </div>
+                    <div class="product-grid lingerie">
+                        <div class="product-card reveal" style="--index: 0">
+                            <div class="product-image-wrapper">
+                                <img src="images/Lencería/Enfermera.png" alt="Enfermera" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Enfermera</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 1">
+                            <div class="product-image-wrapper">
+                                <img src="images/Lencería/Monjita..png" alt="Monjita" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Monjita</h4>
+                                                            </div>
+                        </div>
+                        <div class="product-card reveal" style="--index: 2">
+                            <div class="product-image-wrapper">
+                                <img src="images/Lencería/Traje Sensual.png" alt="Traje Sensual" class="product-image">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-divider"></div>
+                                <h4 class="product-name">Traje Sensual</h4>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- BOTÓN WHATSAPP -->
+    <a href="https://wa.me/573054449693?text=Hola+ÍNTIMO,+estuve+viendo+su+catálogo+y+quisiera+asesoría." class="wa-float" target="_blank">
+        <span>Asesoría Privada</span>
     </a>
 
     <script src="app.js"></script>
