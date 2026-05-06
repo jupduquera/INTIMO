@@ -3,28 +3,28 @@
 
 :root {
   /* Paleta refinada */
-  --bg-primary: #0a0a0a;
-  --bg-secondary: #111111;
-  --bg-tertiary: #1a1a1a;
-  --bg-card: #141414;
+  --bg-primary: #000;
+  --bg-secondary: #171717;
+  --bg-tertiary: #1f1f1f;
+  --bg-card: #181818;
 
   --text-primary: #ffffff;
   --text-secondary: #b0b0b0;
   --text-muted: #666666;
 
-  --accent-rose: #e8b4d9;
-  --accent-purple: #9e197a;
-  --accent-purple-soft: rgba(158, 25, 122, 0.2);
-  --accent-purple-glow: rgba(158, 25, 122, 0.4);
+  --accent-rose: #9b1a36;
+  --accent-purple: #9e2741;
+  --accent-purple-soft: rgba(156, 45, 69, 0.2);
+  --accent-purple-glow: rgba(156, 36, 62, 0.4);
 
   --glass: rgba(255, 255, 255, 0.03);
   --glass-border: rgba(255, 255, 255, 0.08);
   --gold-subtle: #c9a86c;
 
   /* Gradientes */
-  --gradient-hero: radial-gradient(ellipse at center top, #1a0a1a 0%, #0a0a0a 50%, #0a0a0a 100%);
+  --gradient-hero: radial-gradient(ellipse at center top, #2d1a22 0%, #1a1a1a 50%, #121212 100%);
   --gradient-card: linear-gradient(180deg, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0) 100%);
-  --gradient-accent: linear-gradient(135deg, var(--accent-purple) 0%, #7a1560 100%);
+  --gradient-accent: linear-gradient(135deg, var(--accent-purple) 0%, #6b1024 100%);
 
   /* Sombras */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -107,7 +107,7 @@ h1, h2, h3 {
   align-items: center;
   justify-content: center;
   position: relative;
-  background: var(--gradient-hero);
+  background: var(--bg-primary);
   overflow: hidden;
 }
 
@@ -138,8 +138,8 @@ h1, h2, h3 {
 .hero-logo {
   width: clamp(280px, 55vw, 450px);
   height: auto;
-  margin-bottom: var(--space-xl);
-  filter: drop-shadow(0 20px 40px rgba(158, 25, 122, 0.3));
+  margin-bottom: 0;
+  filter: drop-shadow(0 20px 40px rgba(155, 26, 54, 0.25));
   animation: breathe 6s ease-in-out infinite;
 }
 
@@ -299,12 +299,13 @@ h1, h2, h3 {
   position: relative;
   margin-bottom: var(--space-lg);
   padding-left: var(--space-md);
+  
 }
 
 .subcategory-number {
   font-size: clamp(3rem, 8vw, 6rem);
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.042);
   line-height: 1;
   position: absolute;
   left: -0.5rem;
@@ -357,7 +358,7 @@ h1, h2, h3 {
 
 .product-card:hover {
   transform: translateY(-8px);
-  border-color: rgba(158, 25, 122, 0.3);
+  border-color: rgba(155, 26, 54, 0.3);
   box-shadow: var(--shadow-lg), var(--shadow-glow);
 }
 
@@ -523,7 +524,7 @@ h1, h2, h3 {
   position: fixed;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(158, 25, 122, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(155, 26, 54, 0.08) 0%, transparent 70%);
   pointer-events: none;
   z-index: 1;
   transform: translate(-50%, -50%);
