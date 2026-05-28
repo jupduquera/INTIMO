@@ -1,7 +1,7 @@
 // ÍNTIMO — Cupertino Premium
 document.addEventListener('DOMContentLoaded', main)
 
-const WA_NUMBER = '573XXXXXXXXX'
+const WA_NUMBER = '573153461463'
 const WA_MSG = encodeURIComponent('Hola, quiero información sobre un producto del catálogo ÍNTIMO')
 
 function fmtPrice(n) {
@@ -140,7 +140,7 @@ const DATA = [
       {name:'Lubricante Algodón de Azúcar', price:26000, img:'images/Cosméticos/Lubricantes/Lubricante Algodón de Azúcar.png',
         desc:'Lubricante caliente Cotton Candy 30g. Efecto calor que intensifica la sensibilidad. Delicioso sabor a algodón de azúcar. Textura suave, sedosa y no pegajosa. pH neutro y libre de azúcar. Ideal para explorar nuevas sensaciones.',
         features:['Efecto calor','Sabor algodón de azúcar','Textura suave y sedosa','No pegajoso','Compatible con juguetes','pH neutro','Libre de azúcar','30g']},
-      {name:'Lubricante Bon Bon Bum', price:25000, img:'images/Cosméticos/Lubricantes/Lubricante BonBomBum.png',
+      {name:'Lubricante BonBon Bum', price:25000, img:'images/Cosméticos/Lubricantes/Lubricante BonBomBum.png',
         desc:'Lubricante a base de agua con sensación refrescante. pH neutro, humectante, se seca sin dejar residuos. Ideal para usar con condón. 30 ml. Sabores: Bon Bon Bum y neutro.',
         features:['Base agua','Sensación refrescante','pH neutro','Humectante','Sin residuos','Seguro con preservativos','30 ml','Sabores: Bon Bon Bum y neutro']},
       {name:'Lubricante Caliente Comestible', price:25000, img:'images/Cosméticos/Lubricantes/Lubricante Caliente Comestible 80ml.png',
