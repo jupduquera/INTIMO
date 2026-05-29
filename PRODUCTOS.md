@@ -59,6 +59,8 @@
 |---|----------|--------|--------|
 | 1 | **Anillo Stay Hard x3** — Kit 3 anillos silicona. Erecciones firmes. Talla única. | $35,000 | `Anillo Stay Hard x3.png` |
 | 2 | **Anillo Vibrador** — TPR. Micro estimulador. Estimula clítoris o testículos. | $15,000 | `Anillo Vibrador.png` |
+| 3 | **Double Ring — Anillo Doble Bala** — Dos balas vibradoras para estimular testículos y clítoris al mismo tiempo. Placer compartido. | $33,000 | `AnilloDobleBala.png` |
+| 4 | **Anillo Vibrador Power** — Bala vibradora direccionable. Hacia abajo estimula testículos, hacia arriba el clítoris. Reutilizable. | $10,000 | `AnilloVibradorPower.png` |
 
 ### 06 — Accesorios
 

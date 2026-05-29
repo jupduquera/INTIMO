@@ -122,6 +122,12 @@ const DATA = [
       {name:'Anillo Vibrador', price:15000, img:'images/Juguetes/Anillo Vibrador.png',
         desc:'Anillo súper elástico con potente micro estimulador para hacer cosquillas al clítoris o testículos. Orgamos explosivos, divertidos y de larga duración para los dos.',
         features:['TPR','Micro estimulador','Estimula clítoris o testículos','Súper elástico']},
+      {name:'Double Ring — Anillo Doble Bala', price:33000, img:'images/Juguetes/AnilloDobleBala.png',
+        desc:'Double Ring es un anillo diseñado para satisfacer a ambos en los encuentros sexuales. Sus dos balas vibradoras estimulan testículos al hombre y clítoris a la mujer al mismo tiempo. Placer compartido.',
+        features:['Dos balas vibradoras','Estimula testículos y clítoris','Diseño para ambos','Placer en pareja']},
+      {name:'Anillo Vibrador Power', price:10000, img:'images/Juguetes/AnilloVibradorPower.png',
+        desc:'Su poderosa bala vibradora puede usarse de dos maneras: hacia abajo estimula los testículos, hacia arriba estimula el clítoris. Reutilizable. Éxtasis asegurado.',
+        features:['Bala vibradora direccionable','Estimula testículos o clítoris','Reutilizable','Fácil de usar']},
     ]},
     {id:'accesorios', title:'Accesorios', n:'06', prods:[
       {name:'Cinturón Esposas', price:100000, img:'images/Juguetes/Cinturón Esposas.png',
