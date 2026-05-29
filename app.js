@@ -245,8 +245,10 @@ const DATA = [
   {id:'lenceria', title:'Lencería', n:'04', subs:[
     {id:'disfraces', title:'Disfraces y Trajes', n:'01', prods:[
       {name:'Enfermera', img:'images/Lencería/Enfermera.png', desc:'Disfraz de enfermera sensual para juegos de rol.'},
+      {name:'Enfermera Dulce', img:'images/Lencería/EnfermeraDulce.png', desc:'Disfraz de enfermera dulce y provocativa.'},
       {name:'Monjita', img:'images/Lencería/Monjita..png', desc:'Disfraz de monjita atrevido para momentos divertidos.'},
       {name:'Traje Sensual', img:'images/Lencería/Traje Sensual.png', desc:'Traje sensual de encaje para ocasiones especiales.'},
+      {name:'Colegiala Intelectual', img:'images/Lencería/ColegialaIntelectual.png', desc:'Disfraz de colegiala intelectual y seductora.'},
       {name:'Tanga Pasión Colombia', img:'images/Lencería/Tanga Pasión Colombia.png', desc:'Tanga con diseño exclusivo Pasión Colombia.'},
       {name:'Tanga Mariposa', img:'images/Lencería/Tanga Mariposa.png', desc:'Tanga con delicado diseño de mariposa.'},
       {name:'Tanga Corazón', img:'images/Lencería/Tanga Corazón.png', desc:'Tanga con diseño de corazón, romántica y sensual.'},

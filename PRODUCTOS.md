@@ -137,8 +137,10 @@
 | # | Producto | Imagen |
 |---|----------|--------|
 | 1 | **Enfermera** | `Enfermera.png` |
-| 2 | **Monjita** | `Monjita..png` |
-| 3 | **Traje Sensual** | `Traje Sensual.png` |
-| 4 | **Tanga Pasión Colombia** | `Tanga Pasión Colombia.png` |
-| 5 | **Tanga Mariposa** | `Tanga Mariposa.png` |
-| 6 | **Tanga Corazón** | `Tanga Corazón.png` |
+| 2 | **Enfermera Dulce** | `EnfermeraDulce.png` |
+| 3 | **Monjita** | `Monjita..png` |
+| 4 | **Traje Sensual** | `Traje Sensual.png` |
+| 5 | **Colegiala Intelectual** | `ColegialaIntelectual.png` |
+| 6 | **Tanga Pasión Colombia** | `Tanga Pasión Colombia.png` |
+| 7 | **Tanga Mariposa** | `Tanga Mariposa.png` |
+| 8 | **Tanga Corazón** | `Tanga Corazón.png` |
