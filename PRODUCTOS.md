@@ -77,7 +77,7 @@
 | # | Producto | Precio | Imagen |
 |---|----------|--------|--------|
 | 1 | **Lubricante Algodón de Azúcar** — Cotton Candy 30g. Efecto calor. Sabor algodón. pH neutro. | $26,000 | `Lubricante Algodón de Azúcar.png` |
-| 2 | **Lubricante BonBomBum** — 30ml. Base agua. Sensación fresca. pH neutro. Sabores surtidos. | $25,000 | `Lubricante BonBomBum.png` |
+| 2 | **Lubricante Bon Bon Bum** — 30ml. Base agua. Sensación refrescante. pH neutro. Sabores: Bon Bon Bum y neutro. | $25,000 | `Lubricante BonBomBum.png` |
 | 3 | **Lubricante Caliente Comestible** — Hot Stuff 80ml. Sensación caliente. Comestible. Sabores surtidos. | $25,000 | `Lubricante Caliente Comestible 80ml.png` |
 | 4 | **Lubricante Chocolate** — Sabor chocolate. pH neutro. Humectante. Base agua. | $25,000 | `Lubricante Chocolate.png` |
 | 5 | **Lubricante Electrizante Coffee** — Electric Feel 3 en 1. Café caramelo. Calor + electrizante. | $38,000 | `Lubricante Electrizante 3 en 1 Coffee Caramel.png` |
@@ -102,35 +102,31 @@
 
 ### 03 — Potenciadores y Retardantes
 
-*(Precios por confirmar — se mantienen productos existentes)*
-
-| # | Producto | Imagen |
-|---|----------|--------|
-| 1 | **Pastilla Emental x10** | `Pastilla Emental x10.png` |
-| 2 | **ZenSativa Retardante** | `ZenSativa Retardante.png` |
-| 3 | **Multiorgásmico en Gel 30ml** | `Multiorgásmico en Gel 30ml.png` |
-| 4 | **Retardante en Spray 3ml** | `Retardante en Spray 3ml.png` |
+| # | Producto | Precio | Imagen |
+|---|----------|--------|--------|
+| 1 | **Pastilla Emental x10** — EMENTAL. Píldora del amor. L-Arginina, Borojó, Chontaduro, Zinc y vitaminas. Aumenta energía, deseo y rendimiento. Ayuda a prevenir eyaculación precoz. Caja x 6 pastillas. | $20,000 | `Pastilla Emental x10.png` |
+| 2 | **ZenSativa Retardante** — Disminuye la sensibilidad masculina para prolongar la relación. Mayor duración y control. Efecto rápido y fácil aplicación. | $38,900 | `ZenSativa Retardante.png` |
+| 3 | **Multi Ohh Gel Multiorgásmico** — Erotic Scence 30ml. Efecto cosquilleo que estimula zonas íntimas. Excitación progresiva. Sabor banano. Registro Invima. | $29,900 | `Multiorgásmico en Gel 30ml.png` |
+| 4 | **Minotauro BW Spray Retardante** — 3ml. Rápida acción. Prolonga la relación. Mayor control y resistencia. Tamaño portátil. | $24,900 | `Retardante en Spray 3ml.png` |
 
 ### 04 — Féromonas y Cuidado
 
-*(Precios por confirmar — se mantienen productos existentes)*
-
-| # | Producto | Imagen |
-|---|----------|--------|
-| 1 | **Extracto Féromonas** | `Extracto Féromonas.png` |
-| 2 | **Gloss con Féromonas** | `Gloss con Féromonas.png` |
-| 3 | **Lubricante Vibrador** | `Lubricante Vibrador.png` |
-| 4 | **Loción con Féromonas** | `Loción con Féromonas.png` |
-| 5 | **Desodorante Vaginal** | `Desodorante Vaginal.png` |
+| # | Producto | Precio | Imagen |
+|---|----------|--------|--------|
+| 1 | **Extracto Féromonas** — Aroma seductor que potencia la atracción y el deseo. Sensación de seguridad y confianza. | $28,900 | `Extracto Féromonas.png` |
+| 2 | **Gloss con Féromonas** — Brillo hidratante con aroma dulce. Potencia el atractivo natural. Labios suaves y provocativos. | $34,900 | `Gloss con Féromonas.png` |
+| 3 | **Loción Feromonas** — Sex Life Erotic Scence. Fragancia sensual que estimula los sentidos. Actúa con el calor corporal liberando feromonas naturales. Aumenta la atracción. | $39,900 | `Loción con Féromonas.png` |
+| 4 | **Delight Pleasure Lubricante Vibrador** — Efecto vibrante y cosquilleo. Lubricación sedosa. Compatible con juguetes y preservativos. pH íntimo. | $34,900 | `Lubricante Vibrador.png` |
+| 5 | **Desodorante Vaginal** — Frescura prolongada. Neutraliza olores. Fórmula suave para uso íntimo diario. | $30,000 | `Desodorante Vaginal.png` |
 
 ---
 
 ## JUEGOS
 
-| # | Producto | Imagen |
-|---|----------|--------|
-| 1 | **Dados Penitencia** | `Dados Penitencia.png` |
-| 2 | **Juego Erótico** | `Juego_Erótico.png` |
+| # | Producto | Precio | Imagen |
+|---|----------|--------|--------|
+| 1 | **Dados Penitencia** — Lanza los dados y deja que el azar encienda la química. Acciones, formas y lugares para cumplir. Ideal para romper la rutina. | $14,900 | `Dados Penitencia.png` |
+| 2 | **Juego Erótico Escalera** — La escalera erótica con penitencias salvajes. Ideal para despedidas de soltera. Diversión didáctica y entretenida. | $50,000 | `Juego_Erótico.png` |
 
 ---
 
